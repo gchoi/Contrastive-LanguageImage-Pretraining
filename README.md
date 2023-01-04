@@ -1,31 +1,27 @@
-# personal-project/Contrastive-LanguageImage-Pretraining
+# OpenAI CLIP(Contrastive-LanguageImage-Pretraining)
 
+## References
+* [OpenAI CLIP Blog](https://openai.com/blog/clip/)
+* [OpenAI CLIP Github page](https://github.com/openai/CLIP)
+* [CLIP Paper](https://arxiv.org/abs/2103.00020)
 
+## How to Run
 
-## Getting Started
+### Make directories
 
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/alexchoi/personal-project/Contrastive-LanguageImage-Pretraining.git
-
-HTTPS clone URL: https://git.jetbrains.space/alexchoi/personal-project/Contrastive-LanguageImage-Pretraining.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
+```bash
+$ mkdir models
+$ mkdir dataset
 ```
 
-## Deployment
+### Install Python packages
 
-Add additional notes about how to deploy this on a production system.
+```bash
+$ pip3 install -r requirements.txt
+```
 
-## Resources
+### Run main.py
 
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+```bash
+$ python3 main.py
+```
